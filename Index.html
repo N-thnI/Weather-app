@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4 | SkyCast Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="Icon" href="Weather.png">
+</head>
+<body>
+
+    <div class="weather-card">
+        <div class="search">
+            <input type="text" id="city-input" placeholder="Enter city name..." spellcheck="false">
+            <button id="search-btn">🔍</button>
+        </div>
+
+        <div class="weather-info" id="weather-display" style="display: none;">
+            <img src="" id="weather-icon" alt="Weather Icon">
+            <h1 class="temp" id="temp">22°C</h1>
+            <h2 class="city" id="city">Lagos</h2>
+            
+            <div class="details">
+                <div class="col">
+                    <p class="label">Humidity</p>
+                    <p id="humidity">--%</p>
+                </div>
+                <div class="col">
+                    <p class="label">Wind Speed</p>
+                    <p id="wind">-- km/h</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="error-msg" class="error" style="display: none;">City not found</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
