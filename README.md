@@ -15,4 +15,4 @@ A sleek, real-time weather application that fetches global weather data and dyna
 - **String Manipulation:** Building complex query URLs using Template Literals.
 
 ## 🔗 Live Site
-[Your Vercel/GitHub Pages Link]
+[https://github.com/N-thnI/Weather-app]
